@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: skyblue;
+}
+
+header {
+  background-color: yellowgreen;
+  margin: 0;
+  height: 50px;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.startBTN {
+  width: 40px;
+  height: 30px;
+  margin: auto;
+  padding-top: 4px;
+}
+
+.questionContainre {
+  width: 300px;
+  height: 150px;
+  background-color: tomato;
+  margin: auto;
+  margin-top: 8px;
+  border: blue 2px solid;
+  border-radius: 5px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.mainContainer {
+  width: 300px;
+  height: 80px;
+  margin: auto;
+}
+.numbers {
+  text-align: center;
+}
+
+.numList {
+  list-style-type: none;
+  display: flex;
+  color: white;
+  font-size: 30px;
+}
+
+#num1 {
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+#num1:hover {
+  color: red;
+}
+
+#num2 {
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+#num2:hover {
+  color: red;
+}
+#num3 {
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  margin-left: 8px;
+}
+#num3:hover {
+  color: red;
+}
